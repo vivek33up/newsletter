@@ -1,0 +1,133 @@
+body {
+  background-color: hsl(234, 29%, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures the entire viewport height is covered */
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+header {
+  height: 500px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+  background-color: white;
+}
+h1 {
+  font-weight: 700;
+  color: hsl(235, 18%, 26%);
+  font-size: 45px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+p {
+  margin-top: 0px;
+  color: hsl(235, 18%, 26%);
+  margin-bottom: 30px;
+}
+.one {
+  padding: 40px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 40px;
+}
+.list {
+  margin-top: 30px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.tick {
+  background: url("icon-list.svg") no-repeat left top;
+  height: 34px;
+  padding-left: 35px;
+  /* padding-bottom: 8px; */
+}
+.imgg {
+  height: 450px;
+  width: 400px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.email {
+  font-weight: 700;
+  font-size: 14px;
+}
+.e-mail {
+  margin-top: 10px;
+  height: 40px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: hsl(231, 7%, 60%);
+  padding-left: 15px;
+}
+button {
+  height: 40px;
+  width: 295px;
+  margin-top: 15px;
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 5px;
+  border: 1px solid;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(0, -100%);
+}
+.sux {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+.suxs {
+  height: 50px;
+  width: auto;
+  display: inline;
+  padding-right: 240px;
+}
+.suxex {
+  line-height: 1;
+  padding-top: 25px;
+}
+.susex {
+  margin-bottom: 0px;
+}
+.dismiss {
+  height: 50px;
+  width: 295px;
+  margin-top: 15px;
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 5px;
+  border: 1px solid;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+@media (max-width: 375px) {
+  header {
+    flex-direction: column;
+  }
+}
